@@ -11,7 +11,7 @@
 *{
     box-sizing: border-box;
 }
-body{background:rgba(228, 192, 146, 0.568);
+body{background:#E6E6E6;
     font-family: var(--Mont);
 }
 
@@ -34,6 +34,7 @@ button{
 h1, h2, h3, h4, h5, h6, p{
     margin: 1.2rem 0;
 }
+
 .btn{
     background: var(--persian-red);
     border: none;
@@ -71,16 +72,17 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
-    background: rgba(94, 59, 59, 0.986);
+    background: #b45904;
 }
 .navbar-nav{
     padding-left: 0;
 }
 .nav-brand-toggler{
+    max-width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem 0;
+    padding: 0.1rem 0;
 }
 .navbar-brand{
     font-size: 1.3rem;
@@ -136,7 +138,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/header-banner-1.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/taboa-1.jpeg) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -176,6 +178,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* about */
 .about{
     overflow-x: hidden;
+   
 }
 
 /* chef */
@@ -385,7 +388,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0.6;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/footer-img.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/taboa-2.jpeg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
     border-radius: 1.3rem;
@@ -496,7 +499,7 @@ h1, h2, h3, h4, h5, h6, p{
     /*** navbar background change ***/
     .bg-navbar{
         width: 100%;
-        background: #594736;
+        background: #b45904;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         -webkit-box-shadow: 0px 0px 25px 0px rgba(172, 166, 166, 0.75);
@@ -520,6 +523,7 @@ h1, h2, h3, h4, h5, h6, p{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem;
         align-items: center;
+        
     }
 
     .chef-wrapper{
